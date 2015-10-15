@@ -1,8 +1,8 @@
 Package.describe({
   name: 'krisp:jquery-countdown-timer',
   summary: 'Reverse count down jquery plugin as per your need.',
-  version: '1.7.0',
-  git: 'https://github.com/harshen/jquery-countdownTimer.git'
+  version: '1.0.0',
+  git: 'https://github.com/Reflejo/jquery-countdown.git'
 });
 
 Package.onUse(function (api) {
@@ -10,8 +10,8 @@ Package.onUse(function (api) {
   api.use('jquery', 'client');
   api.imply('jquery', 'client');
   api.addFiles([
-    'countdown/jquery.countdownTimer.min.js',
-    'countdown/CSS/jquery.countdownTimer.css'
+    'jqcountdown/js/jquery.countdown.js',
+    'jqcountdown/css/media.css'
   ], 'client'
   );
 });
